@@ -8,7 +8,7 @@ void main() {
 	printf("Enter the Size of the Array: ");
 	scanf("%d", &size);
 	a = (int *)malloc((size+1)*sizeof(int));
-	printf("Enter Elements: ");
+	printf("Enter Elements:");
 	for (i = 0; i < size; i++) {
 		scanf("%d", &a[i]);
 	}
